@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="iakzs">
-  <meta name="description" content="iakzs is very epic | bamb.cl/kz">
+  <meta name="description" content="iakzs iakzs iakzs | bamb.cl/kz : better webpage">
   <meta name="keywords" content="iakzs, koslz, bamb, bamb">
   <meta property="og:title" content="iakzs">
   <meta property="og:description" content="iakzs's webpage">
@@ -40,6 +40,7 @@
       text-align: center;
     }
     #links a {
+      display: inline-block;
       line-height: 60px;
       color: #e8e8e8;
       font-family: Monospace;
@@ -55,11 +56,13 @@
       text-align: center;
     }
     #badges {
-      display: flex;
-      justify-content: center;
-      margin-top: 20px;
+      margin: 0 auto;
+      display: inline-block;
     }
     #badges img {
+      width: 20px;
+      height: 20px;
+      object-fit: contain;
       margin: 10px;
     }
   </style>
@@ -83,18 +86,18 @@
       <img src="https://api.statusbadges.me/badge/playing/622795838032314388" alt="playing">
       <img src="https://api.statusbadges.me/badge/status/622795838032314388" alt="status">
     </div>
-  </div>
-  <script>
-    let phraseList = [
-      "hi",
-      "iakzs.xyz is my domain too",
-      "bamb.cl is my domain too",
-      "wow this is epic",
-      "please follow me on github"
-    ];
+</div>
+<script>
+  let phraseList = [
+    "hi",
+    "iakzs.xyz is my domain too",
+    "bamb.cl is my domain too",
+    "wow this is epic",
+    "please follow me on github"
+  ];
 
-    var element = document.getElementById("Message");
-    element.innerHTML = phraseList[Math.floor(Math.random() * phraseList.length)];
-  </script>
+  var element = document.getElementById("Message");
+  element.innerHTML = phraseList[Math.floor(Math.random() * phraseList.length)];
+</script>
 </body>
 </html>
